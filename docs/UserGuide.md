@@ -901,6 +901,7 @@ Documentation dependencies:
 > * Application Date
 > * Interview Date
 > * Notes
+>
 > #### Applicant List Box
 > The region located at the bottom left of the HMHero's main window.
 > To view more information, refer to the [User Interface](#user-interface) section of the User Guide
