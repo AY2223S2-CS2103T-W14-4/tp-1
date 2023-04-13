@@ -15,8 +15,6 @@ title: User Guide
 * [Quick Start](#quick-start)
    * [User Interface](#user-interface)
    * [Key Definitions](#key-definitions)
-     * [Applicant](#applicant)
-     * [Notes](#notes)
      * [Flags](#flags)
      * [Placeholders](#placeholders)
    * [Command Format](#command-format)
