@@ -606,7 +606,7 @@ fully matches the specified search.</li>
 
 **Example:**
 <br>
-* You want to reject an applicant's status `SHORTLISTED` who exist in HMHero.
+* You want to reject an applicant's status `SHORTLISTED` who exists in HMHero.
 
 Command Input Box: `reject n/Alex Yeoh p/87438807`
 
@@ -695,7 +695,7 @@ What you should see:
 
 **Format:** `remind`
 
-> You can list all applicants with interviews within the next three days.
+> You can list all applicants with interviews within the next three days
 
 <div class="alert alert-info" role="alert">:information_source: <strong>Info:</strong> <br>
 <ul>
@@ -792,7 +792,7 @@ What you should see:
 
 **Format**: `help`
 
-> You can display the help window for HMHero which contains a link to User Guide.
+> You can display the help window for HMHero which contains a link to the User Guide.
 
 **Example:**
 ![help_command.png](images%2Fhelp_command.png)
