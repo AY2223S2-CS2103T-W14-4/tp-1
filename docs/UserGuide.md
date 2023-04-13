@@ -888,9 +888,9 @@ Documentation dependencies:
 > <br>To view more information (limitations, examples, etc.), refer to the [Placeholder](#placeholders) table.
 > #### Address
 > The address of the applicant provided by the user.
+> 
 > #### Applicant
 > The person who applied to the company for the job.
-> 
 > An applicant contains the following attributes:
 > * Name
 > * Phone Number
@@ -900,7 +900,7 @@ Documentation dependencies:
 > * Interview Date
 > * Notes
 > #### Applicant List Box
-> The region located at the bottom left of the HMHero's main window.<br>
+> The region located at the bottom left of the HMHero's main window.
 > To view more information, refer to the [User Interface](#user-interface) section of the User Guide
 > #### Application Cycle
 > All applicants added are at the Applied status by default. From there, hiring managers can advance their application status to Shortlisted, then to Accepted. Applicants can be rejected at any stage.
@@ -971,6 +971,7 @@ Documentation dependencies:
 > Examples of such notes can include:
 > * Technical proficiency, e.g. `Python`, `Java`, `Flask`
 > * Soft Skills, e.g. `Project Management`, `Event Planning`
+> 
 > #### Notes
 > The skill set the applicant possesses provided by the user.
 
