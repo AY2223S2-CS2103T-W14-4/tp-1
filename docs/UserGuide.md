@@ -965,7 +965,8 @@ Documentation dependencies:
 > #### Name
 > The name of the applicant provided by the user.
 > #### NOTES Placeholder
-> The NOTES are some texts that use to represent the skill set of the applicants.
+> The NOTES are some texts that use to represent the skill set of the applicants.<br>
+> <br>To view more information (limitations, examples, etc.), refer to the [Placeholder](#placeholders) table.
 > 
 > Examples of such notes can include:
 > * Technical proficiency, e.g. `Python`, `Java`, `Flask`
