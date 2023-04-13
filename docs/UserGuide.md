@@ -207,25 +207,6 @@ The Help Window looks like the following:
 
 ### Key Definitions
 
-#### Applicant
-
-An applicant in HMHero represents an individual that applied for a job at your company.
-
-[Back to Table of Contents](#table-of-contents)
-
----
-
-#### Notes
-
-A note in HMHero serves as a means of labelling the skills of an applicant. These tags
-are unique and case-sensitive.
-
-We can tag multiple applicants with the same note and each applicant can have multiple notes. These notes are optional.
-
-[Back to Table of Contents](#table-of-contents)
-
----
-
 #### Flags
 Flags are delimiters that enable HMHero to distinguish different parameters without ambiguity.
 
@@ -276,8 +257,8 @@ Before you delve into the different commands in Commands, let’s learn what a c
 Here is an example:
 ![CommandExample.png](images%2FCommandExample.png)
 A command consists of:
-Command Word: Tells HMHero what action you wish to execute. These actions are covered in [Commands](#commands).
 <br>
+Command Word: Tells HMHero what action you wish to execute. These actions are covered in [Commands](#commands)<br>
 [Flags](#flags): Distinguishes between inputs. A flag is usually followed by a placeholder.<br>
 [Placeholders](#placeholders): Represents data that you wish to input. Replace this with valid data.<br>
 For example, `NAME` in `n/NAME` can be replaced with `n/John`.
@@ -1008,6 +989,8 @@ Documentation dependencies:
 > The phone number of the applicant provided by the user.
 > #### Placeholder
 > Placeholders in HMHero refers to the UPPER_CASE words that appear after the flags in commands that is provided by the user. For instance, `n/NAME`, `NAME` is a placeholder
+> 
+> To view more information (limitations, examples, etc.), refer to the [Placeholder](#placeholders) table.
 
 ### S
 > #### STATUS Placeholder
