@@ -356,7 +356,8 @@ Command Input Box: `find n/Adam p/91918153`
 What you should see:
 1. Adam is found in the Applicant list.
 2. Command Output Box shows that 1 person is listed.
-<br></br>
+
+
 ![find_command.png](images%2Ffind_command.png)
 
 
@@ -387,7 +388,8 @@ Command Input Box: `list`
 What you should see:
 1. The whole list of applicants in the Applicant list.
 2. Command Output Box shows the total applicants and numbers of applicants in each stage.
-   <br></br>
+
+
 ![list_command.png](images%2Flist_command.png)
 
 
@@ -668,7 +670,8 @@ Command Input Box: `summary`
 What you should see:
 1. A list of all applicants found in the Applicant list.
 2. Command Output Box shows the statistics for your hiring cycle.
-<br></br>
+
+
 ![summary_command.png](images%2Fsummary_command.png)
 
 
