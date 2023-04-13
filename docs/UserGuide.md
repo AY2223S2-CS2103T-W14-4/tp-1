@@ -908,7 +908,7 @@ Documentation dependencies:
 > #### Applicant
 > The person who applied to the company for the job.
 > 
-> An applicant contains the various attributes:
+> An applicant contains the following attributes:
 > * Name
 > * Phone Number
 > * Address
