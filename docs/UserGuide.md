@@ -258,7 +258,7 @@ Here is an example:
 ![CommandExample.png](images%2FCommandExample.png)
 A command consists of:
 <br><br>
-[Command](#commands) Word: Tells HMHero what action you wish to execute. <br>
+[Command Word](#commands): Tells HMHero what action you wish to execute. <br>
 [Flags](#flags): Distinguishes between inputs. A flag is usually followed by a placeholder.<br>
 [Placeholders](#placeholders): Represents data that you wish to input. Replace this with valid data.<br>
 For example, `NAME` in `n/NAME` can be replaced with `n/John`.
