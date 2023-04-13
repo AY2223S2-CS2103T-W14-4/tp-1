@@ -465,6 +465,7 @@ Command Input Box: `find n/Adam p/91918153`
 What you should see:
 1. Adam is found in the Applicant list.
 2. Command Output Box shows that 1 person is listed.
+<br></br>
 ![find_command.png](images%2Ffind_command.png)
 
 
@@ -495,6 +496,7 @@ Command Input Box: `list`
 What you should see:
 1. The whole list of applicants in the Applicant list.
 2. Command Output Box shows the total applicants and numbers of applicants in each stage.
+   <br></br>
 ![list_command.png](images%2Flist_command.png)
 
 
@@ -512,14 +514,14 @@ What you should see:
 <div class="alert alert-info" role="alert">:information_source: <strong>Info:</strong> <br>
 <ul>
     <li>All fields are compulsory.</li>
-    <li> The <code>delete</code> command only deletes <code>Applicant</code> which has a name and phone 
-that fully matches the specified search.</li> 
+    <li> The <code>delete</code> command only deletes an <code>Applicant</code> whose name and phone 
+fully matches the specified search.</li> 
 </ul> </div>
 
 
 **Example:**
 <br>
-* You want to delete an applicant who exist in HMHero.
+* You want to delete an applicant who exists in HMHero.
 
 Command Input Box: `delete n/Bernice Yu p/91234567`
 
@@ -559,24 +561,24 @@ when you advance an applicant!
 
 **Example:**
 <br>
-* You want to advance an applicant's status `APPLIED` who exist in HMHero.
+* You want to advance an applicant, with the status `APPLIED`, who exists in HMHero.
 
 Command Input Box: `advance n/Adam p/91918153 d/20-05-2023 12:12`
 
 What you should see:
 1. Adam is advanced from status `APPLIED` to status `SHORTLISTED` in the Applicant list.
-2. Command Output Box shows that Adam is advanced, his old and new status.
+2. Command Output Box shows that Adam is successfully advanced, along with his old and new status.
 ![advance_command_applied.png](images%2Fadvance_command_applied.png)
 
 **Example:**
 <br>
-* You want to advance an applicant's status `SHORTLISTED` who exist in HMHero.
+* You want to advance an applicant, with the status `SHORTLISTED`, who exists in HMHero.
 
 Command Input Box: `advance n/Adam p/91918153 `
 
 What you should see:
 1. Adam is advanced from status `SHORTLISTED` to status `ACCEPTED` in the Applicant list.
-2. Command Output Box shows that Adam is advanced, his old and new status.
+2. Command Output Box shows that Adam is successfully advanced, along with his old and new status.
 ![advance_command_shortlisted.png](images%2Fadvance_command_shortlisted.png)
 
 
@@ -609,8 +611,8 @@ fully matches the specified search.</li>
 Command Input Box: `reject n/Alex Yeoh p/87438807`
 
 What you should see:
-1. Adam is rejected from status `SHORTLISTED` to status `REJECTED` in the Applicant list.
-2. Command Output Box shows that Adam is rejected.
+1. Alex is rejected from status `SHORTLISTED` to status `REJECTED` in the Applicant list.
+2. Command Output Box shows that Alex is rejected.
 ![reject_command.png](images%2Freject_command.png)
 
 <div markdown="span" class="alert alert-danger" role="alert">:exclamation: <strong>Caution:</strong>
@@ -642,7 +644,7 @@ Applicants with the status <code>REJECTED</code> cannot be rejected again!
 Command Input Box: `interview`
 
 What you should see:
-1. All the interview dates of the shortlisted applicants in the Applicant list.
+1. All the interview dates of the `SHORTLISTED` applicants in the Applicant list.
 ![interview_command.png](images%2Finterview_command.png)
 
 [Back to Table of Contents](#table-of-contents)
@@ -661,13 +663,13 @@ What you should see:
 parameter.</li>
     <li>If two or more values of the same parameter are provided, only the last value for that parameter will be taken.
 </li>
-    <li> However for <code>NOTE</code>:
+    <li> However, for the <code>NOTE</code> parameter:
         <ul> 
             <li>If two or more values for <code>NOTE</code> are provided, both parameters will be taken in.</li>
             <li>If an empty <code>NOTE</code> is provided, all notes will be removed.</li>
         </ul>
     </li>
-    <li>You are allowed to change <code>INTERVIEW DATETIME</code> to a value before the current datetime but after the applicant's application date time using the <code>edit</code> command. </li>
+    <li>You are allowed to edit <code>INTERVIEW DATETIME</code> to a value before the current date and time, but it must still be after the applicant's application date and time. </li>
 </ul> 
 
 </div>
@@ -675,7 +677,7 @@ parameter.</li>
 
 **Example:**
 <br>
-* You want to edit the phone number and notes of an applicant who exist in HMHero.
+* You want to edit the phone number and notes of an applicant who exists in HMHero.
 
 Command Input Box: `edit 2 p/91234567 note/Kotlin note/Python note/leadership`
 
@@ -697,8 +699,8 @@ What you should see:
 
 <div class="alert alert-info" role="alert">:information_source: <strong>Info:</strong> <br>
 <ul>
-    <li>Reminder for upcoming interview will show all applicants with interviews in the next three days. (e.g. On Monday, 
-it will show all applicants with interviews till Thursday)</li>
+    <li>Only applicants with interviews in the next three days will be shown, without taking into account the time of the day. (e.g. On Monday, 
+it will show all applicants with interviews until Thursday)</li>
 </ul> </div>
 
 **Example:**
@@ -743,7 +745,7 @@ specified.
 
 **Example:**
 <br>
-* You want to search for applicants with java skill that exist in HMHero.
+* You want to search for all applicants with the skill `java` that exist in HMHero.
 
 Command Input Box: `skill java`
 
@@ -764,7 +766,7 @@ What you should see:
 
 **Format:** `summary`
 
-> You can show a statistical summary of the company's hiring processes.
+> You can get a statistical summary of the company's hiring processes
 
 **Example:**
 <br>
@@ -775,6 +777,7 @@ Command Input Box: `summary`
 What you should see:
 1. A list of all applicants found in the Applicant list.
 2. Command Output Box shows the statistics for your hiring cycle.
+<br></br>
 ![summary_command.png](images%2Fsummary_command.png)
 
 
@@ -789,7 +792,7 @@ What you should see:
 
 **Format**: `help`
 
-> You can display help window for HMHero which contains link to User Guide.
+> You can display the help window for HMHero which contains a link to User Guide.
 
 **Example:**
 ![help_command.png](images%2Fhelp_command.png)
@@ -804,7 +807,7 @@ What you should see:
 
 **Format**: `exit`
 
-> You can exit HMHero
+> You can close the HMHero application
 
 **Expected Outcomes:**
 
