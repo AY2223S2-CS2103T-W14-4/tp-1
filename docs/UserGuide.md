@@ -234,14 +234,14 @@ These placeholders follow immediately after a [Flag](#flags).
 Please refer to the subsequent [Command Format](#command-format) 
 section to see how Flags and Placeholders are used together.
 
-| Placeholder          | Corresponding Flag | Description                                                                                                        | Restrictions                                                                                                        |
-|----------------------|--------------------|--------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| INDEX                | (Not Applicable)   | The INDEX of an item is the number to the left of the applicant's name in the Item List Box.                       | The INDEX is restricted to the number of applicants in HMHero and cannot be negative.                               |
-| NAME                 | n/                 | The NAME is the text we use to identify an Applicant.                                                              | The NAME of an applicant must be alphabetic characters and no numbers are allowed.                                  |
-| PHONE                | p/                 | The PHONE is the text we use to represent the phone number of the Applicant.                                       | The PHONE of an applicant must have at least 3 numbers and must be numeric characters.                              |
-| EMAIL                | e/                 | The EMAIL is the text we use to represent the email of the Applicant.                                              | EMAIL must be in the format `username@domain` <br><br> - Should only contain alphanumeric characters.               |
-| NOTE                 | note/              | The NOTE is the text we use to represent the skill of an Applicant.                                                | NOTE cannot be longer than 45 characters long.                                                                      |
-| APPLICATION DATETIME | applied/           | The APPLICATION DATETIME is the text we use to represent the date and time that the Applicant applied for the job. | Format of datetime is `DD-MM-YYYY HH:mm`                                                                            |
+| Placeholder          | Corresponding Flag | Description                                                                                                        | Restrictions                                                                                                                |
+|----------------------|--------------------|--------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| INDEX                | (Not Applicable)   | The INDEX of an item is the number to the left of the applicant's name in the Item List Box.                       | The INDEX is restricted to the number of applicants in HMHero and cannot be negative.                                       |
+| NAME                 | n/                 | The NAME is the text we use to identify an Applicant.                                                              | The NAME of an applicant must be alphabetic characters and no numbers are allowed.                                          |
+| PHONE                | p/                 | The PHONE is the text we use to represent the phone number of the Applicant.                                       | The PHONE of an applicant must have at least 3 numbers and must be numeric characters.                                      |
+| EMAIL                | e/                 | The EMAIL is the text we use to represent the email of the Applicant.                                              | EMAIL must be in the format `username@domain` and should only contain alphanumeric characters.                              |
+| NOTE                 | note/              | The NOTE is the text we use to represent the skill of an Applicant.                                                | NOTE cannot be longer than 45 characters long.                                                                              |
+| APPLICATION DATETIME | applied/           | The APPLICATION DATETIME is the text we use to represent the date and time that the Applicant applied for the job. | Format of datetime is `DD-MM-YYYY HH:mm`                                                                                    |
 | INTERVIEW DATETIME   | d/                 | The INTERVIEW DATETIME is the text we use to represent the date and time of the Applicant's interview.             | Format of datetime is `DD-MM-YYYY HH:mm`  <br><br> INTERVIEW DATETIME can only be scheduled after the APPLICATION DATETIME. |
 
 
@@ -892,9 +892,9 @@ Documentation dependencies:
 > <br>To view more information (limitations, examples, etc.), refer to the [Placeholder](#placeholders) table.
 > #### Address
 > The address of the applicant provided by the user.
+> 
 > #### Applicant
 > The person who applied to the company for the job.
-> 
 > An applicant contains the following attributes:
 > * Name
 > * Phone Number
@@ -904,7 +904,7 @@ Documentation dependencies:
 > * Interview Date
 > * Notes
 > #### Applicant List Box
-> The region located at the bottom left of the HMHero's main window.<br>
+> The region located at the bottom left of the HMHero's main window.
 > To view more information, refer to the [User Interface](#user-interface) section of the User Guide
 > #### Application Cycle
 > All applicants added are at the Applied status by default. From there, hiring managers can advance their application status to Shortlisted, then to Accepted. Applicants can be rejected at any stage.
@@ -975,6 +975,7 @@ Documentation dependencies:
 > Examples of such notes can include:
 > * Technical proficiency, e.g. `Python`, `Java`, `Flask`
 > * Soft Skills, e.g. `Project Management`, `Event Planning`
+> 
 > #### Notes
 > The skill set the applicant possesses provided by the user.
 
