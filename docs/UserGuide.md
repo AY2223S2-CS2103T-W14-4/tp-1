@@ -469,7 +469,7 @@ when you advance an applicant!
 
 **Example:**
 <br>
-* You want to advance an applicant's status `APPLIED` who exist in HMHero.
+* You want to advance an applicant's status `APPLIED` who exists in HMHero.
 
 Command Input Box: `advance n/Adam p/91918153 d/20-05-2023 12:12`
 
@@ -480,7 +480,7 @@ What you should see:
 
 **Example:**
 <br>
-* You want to advance an applicant's status `SHORTLISTED` who exist in HMHero.
+* You want to advance an applicant's status `SHORTLISTED` who exists in HMHero.
 
 Command Input Box: `advance n/Adam p/91918153 `
 
@@ -514,13 +514,13 @@ fully matches the specified search.</li>
 
 **Example:**
 <br>
-* You want to reject an applicant's status `SHORTLISTED` who exist in HMHero.
+* You want to reject an applicant's status `SHORTLISTED` who exists in HMHero.
 
 Command Input Box: `reject n/Alex Yeoh p/87438807`
 
 What you should see:
-1. Adam is rejected from status `SHORTLISTED` to status `REJECTED` in the Applicant list.
-2. Command Output Box shows that Adam is rejected.
+1. Alex is rejected from status `SHORTLISTED` to status `REJECTED` in the Applicant list.
+2. Command Output Box shows that Alex is rejected.
 ![reject_command.png](images%2Freject_command.png)
 
 <div markdown="span" class="alert alert-danger" role="alert">:exclamation: <strong>Caution:</strong>
@@ -585,7 +585,7 @@ parameter.</li>
 
 **Example:**
 <br>
-* You want to edit the phone number and notes of an applicant who exist in HMHero.
+* You want to edit the phone number and notes of an applicant who exists in HMHero.
 
 Command Input Box: `edit 2 p/91234567 note/Kotlin note/Python note/leadership`
 
@@ -603,7 +603,7 @@ What you should see:
 
 **Format:** `remind`
 
-> You can list all applicants with interviews within the next three days.
+> You can list all applicants with interviews within the next three days
 
 <div class="alert alert-info" role="alert">:information_source: <strong>Info:</strong> <br>
 <ul>
@@ -653,7 +653,7 @@ specified.
 
 **Example:**
 <br>
-* You want to search for applicants with java skill that exist in HMHero.
+* You want to search for applicants with the skill `java` that exist in HMHero.
 
 Command Input Box: `skill java`
 
@@ -674,7 +674,7 @@ What you should see:
 
 **Format:** `summary`
 
-> You can show a statistical summary of the company's hiring processes.
+> You can get a statistical summary of the company's hiring processes
 
 **Example:**
 <br>
@@ -685,6 +685,8 @@ Command Input Box: `summary`
 What you should see:
 1. A list of all applicants found in the Applicant list.
 2. Command Output Box shows the statistics for your hiring cycle.
+
+
 ![summary_command.png](images%2Fsummary_command.png)
 
 
@@ -699,7 +701,7 @@ What you should see:
 
 **Format**: `help`
 
-> You can display help window for HMHero which contains link to User Guide.
+> You can display the help window for HMHero which contains a link to the User Guide.
 
 **Example:**
 ![help_command.png](images%2Fhelp_command.png)
