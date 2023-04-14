@@ -18,7 +18,6 @@ title: User Guide
      * [Flags](#flags)
      * [Placeholders](#placeholders)
    * [Command Format](#command-format)
-   * [Trying your First Command](#trying-your-first-command)
 * [Commands](#commands)
    * [Applicant Commands](#applicant-commands)
      * [Create a new applicant `add`](#create-a-new-applicant-add)
@@ -37,9 +36,9 @@ title: User Guide
      * [Receive help during usage `help`](#receive-help-during-usage-help)
      * [Exit HMHero `exit`](#exit-hmhero-exit)
 * [Command summary](#command-summary)
-   * [Applicant Commands](#applicant-commands)
-   * [Statistics Commands](#statistics-commands)
-   * [General Commands](#general-commands)
+   * [Applicant Commands Summary](#applicant-commands-summary)
+   * [Statistics Commands Summary](#statistics-commands-summary)
+   * [General Commands Summary](#general-commands-summary)
 * [Troubleshooting](#troubleshooting)
 * [FAQ](#faq)
 * [Acknowledgements](#acknowledgements)
@@ -189,6 +188,7 @@ HMHero's GUI consists of a single main window consisting of 3 main sections.
 3. [Applicant List Box](#applicant-list-box): List of applicants 
 
 The following picture of the main window shows the three components, numbered accordingly:
+
 ![components.png](images%2Fcomponents.png)
 
 HMHero also has the Help Window. It is not part of the main GUI and is only
@@ -265,6 +265,8 @@ For example, `NAME` in `n/NAME` can be replaced with `n/John`.
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 ## Commands
 
 This section shares with you on how to use each command in detail.
@@ -279,7 +281,6 @@ This section shares with you on how to use each command in detail.
 </div>
 
 [Back to Table of Contents](#table-of-contents)
-<div style="page-break-after: always;"></div>
 
 ### Applicant Commands
 
@@ -718,7 +719,7 @@ If your data cannot be saved successfully, HMHero will not close in order to pre
 
 ## Command Summary
 
-### Applicant Commands
+### Applicant Commands Summary
 
 | Action                                   | Format                                                                                                                                                                           | Example                                                                     |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
@@ -738,7 +739,7 @@ If your data cannot be saved successfully, HMHero will not close in order to pre
 
 ---
 
-### Statistics Commands
+### Statistics Commands Summary
 
 | Action                                  | Format    | Example   |
 |-----------------------------------------|-----------|-----------|
@@ -749,7 +750,8 @@ If your data cannot be saved successfully, HMHero will not close in order to pre
 ---
 
 <div style="page-break-after: always;"></div>
-### General Commands
+
+### General Commands Summary
 
 | Action                                               | Format | Example |
 |------------------------------------------------------|--------|---------|
