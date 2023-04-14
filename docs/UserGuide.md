@@ -304,6 +304,7 @@ This section shares with you on how to use each command in detail.
 </li>
 </ul> </div>
 
+<div style="page-break-after: always;"></div>
 
 **Example:** 
 <br>
@@ -420,8 +421,6 @@ What you should see:
 1. Bernice Yu is deleted from the Applicant list.
 2. Command Output Box shows that Bernice Yu is deleted and her details.
 ![delete_command_after.png](images%2Fdelete_command_after.png)
-
-
 [Back to Table of Contents](#table-of-contents)
 
 ---
@@ -469,6 +468,7 @@ What you should see:
 Command Input Box: `advance n/Adam p/91918153 `
 
 <div style="page-break-after: always;"></div>
+<br><br>
 
 What you should see:
 1. Adam is advanced from status `SHORTLISTED` to status `ACCEPTED` in the Applicant list.
@@ -506,6 +506,7 @@ fully matches the specified search.</li>
 Command Input Box: `reject n/Alex Yeoh p/87438807`
 
 <div style="page-break-after: always;"></div>
+<br><br>
 
 What you should see:
 1. Alex is rejected from status `SHORTLISTED` to status `REJECTED` in the Applicant list.
@@ -578,6 +579,7 @@ parameter.</li>
 Command Input Box: `edit 2 p/91234567 note/Kotlin note/Python note/leadership`
 
 <div style="page-break-after: always;"></div>
+<br><br> 
 
 
 What you should see:
@@ -604,7 +606,7 @@ it will show all applicants with interviews until Thursday)</li>
 </ul> </div>
 
 **Example:**
-* You want to see all the applicants with interview within the next three days who exist in HMHero.
+* You want to see all the applicants with interview within the next three days.
 
 Command Input Box: `remind`
 
@@ -612,7 +614,6 @@ What you should see:
 1. Adam's interview date is within the next three days which is shown in the Applicant list.
 2. Command Output Box shows the success message.
 ![remind_command.png](images%2Fremind_command.png)
-
 [Back to Table of Contents](#table-of-contents)
 
 ---
@@ -649,6 +650,8 @@ specified.
 Command Input Box: `skill java`
 
 <div style="page-break-after: always;"></div>
+<br><br> 
+
 
 What you should see:
 1. Adam who has java skill is found in the Applicant list.
@@ -673,6 +676,9 @@ What you should see:
 * You want to see the statistics for your hiring cycle in HMHero.
 
 Command Input Box: `summary`
+
+<div style="page-break-after: always;"></div>
+<br><br> 
 
 What you should see:
 1. A list of all applicants found in the Applicant list.
