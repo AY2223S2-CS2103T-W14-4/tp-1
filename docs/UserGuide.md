@@ -242,6 +242,7 @@ section to see how Flags and Placeholders are used together.
 | EMAIL                | e/                 | The EMAIL is the text we use to represent the email of the Applicant.                                              | EMAIL must be in the format `username@domain` and should only contain alphanumeric characters.                              |
 
 <div style="page-break-after: always;"></div>
+<br><br>
 
 | Placeholder          | Corresponding Flag | Description                                                                                                        | Restrictions                                                                                                                |
 |----------------------|--------------------|--------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
@@ -752,6 +753,7 @@ If your data cannot be saved successfully, HMHero will not close in order to pre
 | View the interview dates of applicants   | `interview`                                                                                                                                                                      | `interview`                                                                 |
 
 <div style="page-break-after: always;"></div>
+<br><br>
 
 | Action                                   | Format                                                                                    | Example                     |
 |------------------------------------------|-------------------------------------------------------------------------------------------|-----------------------------|
