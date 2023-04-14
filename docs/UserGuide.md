@@ -84,7 +84,8 @@ You can:
 [Back to Table of Contents](#table-of-contents)
 
 ---
-<br><br>
+<div style="page-break-after: always;"></div>
+
 ## How to use this User Guide
 
 ### Icons and Hyperlinks
@@ -381,7 +382,6 @@ Find Command</a></li>
 
 
 **Example:**
-<br>
 * You want to list all applicants who exist in HMHero.
 
 Command Input Box: `list`
@@ -392,8 +392,6 @@ What you should see:
 
 
 ![list_command.png](images%2Flist_command.png)
-
-
 [Back to Table of Contents](#table-of-contents)
 
 ---
@@ -414,7 +412,6 @@ fully matches the specified search.</li>
 
 
 **Example:**
-<br>
 * You want to delete an applicant who exists in HMHero.
 
 Command Input Box: `delete n/Bernice Yu p/91234567`
@@ -471,6 +468,8 @@ What you should see:
 
 Command Input Box: `advance n/Adam p/91918153 `
 
+<div style="page-break-after: always;"></div>
+
 What you should see:
 1. Adam is advanced from status `SHORTLISTED` to status `ACCEPTED` in the Applicant list.
 2. Command Output Box shows that Adam is successfully advanced, along with his old and new status.
@@ -505,6 +504,8 @@ fully matches the specified search.</li>
 * You want to reject an applicant's status `SHORTLISTED` who exists in HMHero.
 
 Command Input Box: `reject n/Alex Yeoh p/87438807`
+
+<div style="page-break-after: always;"></div>
 
 What you should see:
 1. Alex is rejected from status `SHORTLISTED` to status `REJECTED` in the Applicant list.
@@ -545,7 +546,6 @@ What you should see:
 [Back to Table of Contents](#table-of-contents)
 
 ---
-<div style="page-break-after: always;"></div>
 
 #### Edit an existing applicant `edit`
 
@@ -577,6 +577,9 @@ parameter.</li>
 
 Command Input Box: `edit 2 p/91234567 note/Kotlin note/Python note/leadership`
 
+<div style="page-break-after: always;"></div>
+
+
 What you should see:
 1. Bernice's phone number and notes are edited in the Applicant list.
 2. Command Output Box shows that Bernice is edited with her new information shown.
@@ -601,7 +604,6 @@ it will show all applicants with interviews until Thursday)</li>
 </ul> </div>
 
 **Example:**
-<br>
 * You want to see all the applicants with interview within the next three days who exist in HMHero.
 
 Command Input Box: `remind`
@@ -646,6 +648,8 @@ specified.
 
 Command Input Box: `skill java`
 
+<div style="page-break-after: always;"></div>
+
 What you should see:
 1. Adam who has java skill is found in the Applicant list.
 2. Command Output Box shows that 1 person is listed.
@@ -666,7 +670,6 @@ What you should see:
 > You can get a statistical summary of the company's hiring processes
 
 **Example:**
-<br>
 * You want to see the statistics for your hiring cycle in HMHero.
 
 Command Input Box: `summary`
@@ -677,8 +680,6 @@ What you should see:
 
 
 ![summary_command.png](images%2Fsummary_command.png)
-
-
 [Back to Table of Contents](#table-of-contents)
 
 ---
