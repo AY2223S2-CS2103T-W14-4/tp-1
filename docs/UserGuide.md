@@ -84,7 +84,7 @@ You can:
 [Back to Table of Contents](#table-of-contents)
 
 ---
-
+<br><br>
 ## How to use this User Guide
 
 ### Icons and Hyperlinks
@@ -189,6 +189,7 @@ HMHero's GUI consists of a single main window consisting of 3 main sections.
 
 The following picture of the main window shows the three components, numbered accordingly:
 
+<br><br>
 ![components.png](images%2Fcomponents.png)
 
 HMHero also has the Help Window. It is not part of the main GUI and is only
@@ -319,6 +320,7 @@ What you should see:
 
 ---
 
+<div style="page-break-after: always;"></div>
 
 #### Search for an applicant `find`
 
@@ -395,7 +397,7 @@ What you should see:
 [Back to Table of Contents](#table-of-contents)
 
 ---
-
+<div style="page-break-after: always;"></div>
 
 #### Delete an applicant `delete`
 
@@ -426,6 +428,7 @@ What you should see:
 [Back to Table of Contents](#table-of-contents)
 
 ---
+<div style="page-break-after: always;"></div>
 
 
 #### Advance an applicant `advance`
@@ -477,6 +480,7 @@ What you should see:
 [Back to Table of Contents](#table-of-contents)
 
 ---
+<div style="page-break-after: always;"></div>
 
 
 #### Reject an applicant `reject`
@@ -514,7 +518,6 @@ Applicants with the status <code>REJECTED</code> cannot be rejected again!
 [Back to Table of Contents](#table-of-contents)
 
 ---
-
 <div style="page-break-after: always;"></div>
 
 #### List all interview dates of applicants `interview`
@@ -542,6 +545,7 @@ What you should see:
 [Back to Table of Contents](#table-of-contents)
 
 ---
+<div style="page-break-after: always;"></div>
 
 #### Edit an existing applicant `edit`
 
@@ -582,6 +586,7 @@ What you should see:
 [Back to Table of Contents](#table-of-contents)
 
 ---
+<div style="page-break-after: always;"></div>
 
 #### Get reminders for upcoming interviews `remind`
 
@@ -650,7 +655,7 @@ What you should see:
 [Back to Table of Contents](#table-of-contents)
 
 ---
-
+<div style="page-break-after: always;"></div>
 
 ### Statistics Commands
 
@@ -677,7 +682,7 @@ What you should see:
 [Back to Table of Contents](#table-of-contents)
 
 ---
-
+<div style="page-break-after: always;"></div>
 
 ### General Commands
 
@@ -694,6 +699,7 @@ What you should see:
 [Back to Table of Contents](#table-of-contents)
 
 ---
+<div style="page-break-after: always;"></div>
 
 
 #### Exit HMHero `exit`
@@ -738,6 +744,7 @@ If your data cannot be saved successfully, HMHero will not close in order to pre
 [Back to Table of Contents](#table-of-contents)
 
 ---
+<div style="page-break-after: always;"></div>
 
 ### Statistics Commands Summary
 
@@ -748,8 +755,6 @@ If your data cannot be saved successfully, HMHero will not close in order to pre
 [Back to Table of Contents](#table-of-contents)
 
 ---
-
-<div style="page-break-after: always;"></div>
 
 ### General Commands Summary
 
