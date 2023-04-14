@@ -305,6 +305,7 @@ This section shares with you on how to use each command in detail.
 </ul> </div>
 
 <div style="page-break-after: always;"></div>
+<br><br> 
 
 **Example:** 
 <br>
@@ -424,8 +425,6 @@ What you should see:
 [Back to Table of Contents](#table-of-contents)
 
 ---
-<div style="page-break-after: always;"></div>
-
 
 #### Advance an applicant `advance`
 
@@ -455,6 +454,11 @@ when you advance an applicant!
 * You want to advance an applicant, with the status `APPLIED`, who exists in HMHero.
 
 Command Input Box: `advance n/Adam p/91918153 d/20-05-2023 12:12`
+
+
+<div style="page-break-after: always;"></div>
+<br><br>
+
 
 What you should see:
 1. Adam is advanced from status `APPLIED` to status `SHORTLISTED` in the Applicant list.
@@ -617,8 +621,6 @@ What you should see:
 [Back to Table of Contents](#table-of-contents)
 
 ---
-
-<div style="page-break-after: always;"></div>
 
 #### Filter applicants with specific skill(s) `skill`
 
