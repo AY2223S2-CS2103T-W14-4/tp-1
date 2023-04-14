@@ -240,6 +240,11 @@ section to see how Flags and Placeholders are used together.
 | NAME                 | n/                 | The NAME is the text we use to identify an Applicant.                                                              | The NAME of an applicant must be alphabetic characters and no numbers are allowed.                                          |
 | PHONE                | p/                 | The PHONE is the text we use to represent the phone number of the Applicant.                                       | The PHONE of an applicant must have at least 3 numbers and must be numeric characters.                                      |
 | EMAIL                | e/                 | The EMAIL is the text we use to represent the email of the Applicant.                                              | EMAIL must be in the format `username@domain` and should only contain alphanumeric characters.                              |
+
+<div style="page-break-after: always;"></div>
+
+| Placeholder          | Corresponding Flag | Description                                                                                                        | Restrictions                                                                                                                |
+|----------------------|--------------------|--------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
 | NOTE                 | note/              | The NOTE is the text we use to represent the skill of an Applicant.                                                | NOTE cannot be longer than 45 characters long.                                                                              |
 | APPLICATION DATETIME | applied/           | The APPLICATION DATETIME is the text we use to represent the date and time that the Applicant applied for the job. | Format of datetime is `DD-MM-YYYY HH:mm`                                                                                    |
 | INTERVIEW DATETIME   | d/                 | The INTERVIEW DATETIME is the text we use to represent the date and time of the Applicant's interview.             | Format of datetime is `DD-MM-YYYY HH:mm`  <br><br> INTERVIEW DATETIME can only be scheduled after the APPLICATION DATETIME. |
@@ -745,9 +750,14 @@ If your data cannot be saved successfully, HMHero will not close in order to pre
 | Advance an applicant                     | `advance n/NAME p/PHONE [d/INTERVIEW DATETIME]` <br> <br> **Note:** You need to provide an `INTERVIEW DATETIME` to advance an applicant's status from `APPLIED` to `SHORTLISTED` | `advance n/Tom p/98763213 d/20-03-2024 12:12`                               |
 | Reject an applicant                      | `reject n/NAME p/PHONE`                                                                                                                                                          | `reject n/Tom p/98763213`                                                   |
 | View the interview dates of applicants   | `interview`                                                                                                                                                                      | `interview`                                                                 |
-| Edit the information of an applicant     | `edit INDEX [n/NAME] [p/PHONE] [e/EMAIL] [a/ADDRESS] [d/INTERVIEW DATE TIME] [note/NOTE]`                                                                                        | `edit 1 n/Marry p/98763245`                                                 |
-| Remind an applicant's interview date     | `remind`                                                                                                                                                                         | `remind`                                                                    |
-| Filter applicants with specific skill(s) | `skill KEYWORD(s)`                                                                                                                                                               | `skill java`                                                                |
+
+<div style="page-break-after: always;"></div>
+
+| Action                                   | Format                                                                                    | Example                     |
+|------------------------------------------|-------------------------------------------------------------------------------------------|-----------------------------|
+| Edit the information of an applicant     | `edit INDEX [n/NAME] [p/PHONE] [e/EMAIL] [a/ADDRESS] [d/INTERVIEW DATE TIME] [note/NOTE]` | `edit 1 n/Marry p/98763245` |
+| Remind an applicant's interview date     | `remind`                                                                                  | `remind`                    |
+| Filter applicants with specific skill(s) | `skill KEYWORD(s)`                                                                        | `skill java`                |
  
 
 [Back to Table of Contents](#table-of-contents)
